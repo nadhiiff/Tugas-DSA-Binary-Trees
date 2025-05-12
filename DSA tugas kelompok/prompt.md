@@ -14,11 +14,13 @@ Pada tantangan ini, kita diminta untuk menghitung **tinggi** dari sebuah **binar
 Tinggi pohon didefinisikan sebagai jumlah edge (sisi) yang dilalui dari root ke leaf node terdalam.
 
 Sebagai contoh:
-   3
-  / \
- 2   5
-    / \
-   1   4
+
+       3
+      / \
+     2   5
+        / \
+       1   4
+  
 Pohon di atas memiliki tinggi `2` karena jalur terpanjang dari root ke leaf terdiri dari 2 edge: 3 → 5 → 1 (atau 3 → 5 → 4).
 
 ## 🧩 Prompt
