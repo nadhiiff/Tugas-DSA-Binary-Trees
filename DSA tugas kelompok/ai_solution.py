@@ -1,3 +1,4 @@
+'''
 Binary Tree Height Analysis
 
 Based on the screenshots provided, I'll explain how to calculate the height of a binary tree.
@@ -27,9 +28,7 @@ To implement the getHeight or height function:
     Recursively calculate the height of the left and right subtrees
 
     Return the maximum of the left and right subtree heights, plus 1
-
-Python Implementation
-python
+'''
 
 class Node:
     def __init__(self, data):
@@ -44,6 +43,7 @@ def height(root):
     right_height = height(root.right)
     return max(left_height, right_height) + 1
 
+'''
 How It Works
 
     For a leaf node (both children are None), it returns max(-1, -1) + 1 = 0
@@ -63,3 +63,4 @@ The problem mentions that nodes are inserted into a BST before the root is passe
 However, your function only needs to calculate the height and doesn't need to handle the BST construction.
 
 This implementation will correctly calculate the height of any binary tree according to the given definition.
+'''
